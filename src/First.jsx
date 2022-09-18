@@ -16,6 +16,10 @@ import Online from "./Online";
 import Assigmant from "./pages/Assigmant";
 import Compiler from "./pages/Compiler";
 import Chats from "./pages/Chats";
+import AssingSem from "./pages/AssingSem";
+import Notes from "./pages/Notes";
+import Semesters from "./pages/Semesters";
+import Questions from "./pages/Questions";
 
 const First = () => {
   const theme = {
@@ -62,6 +66,11 @@ const First = () => {
           <Route path="/assignment" element= {<Assigmant/>}/>
           <Route path="/Compiler" element= {<Compiler/>}/>
           <Route path="/Chats" element= {<Chats/>}/>
+          <Route path="/Assingments" element= {<AssingSem/>}/>
+          <Route path="/Notes" element= {<Notes/>}/>
+          <Route path="/Semesters" element= {<Semesters/>}/>
+          <Route path="/Questions" element= {<Questions/>}/>
+          
         </Routes>
 
         <Footer />

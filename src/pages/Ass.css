@@ -1,0 +1,34 @@
+.text23{
+    color:red;
+    font-size: 3rem;
+    color:rgb(8,217,213);
+}
+.scall{
+    height: 300px;
+    width: 300px;
+
+}
+.tiles{
+    transform: scale(0.8);
+    padding: 0%;
+    margin: 0%;
+    align-items: center;
+    border: 2px solid rgb(8,217,213);
+    border-radius: 2rem;
+}
+.meet:hover{
+    transform: scale(0.7);
+    transition: transform 430ms ease-in-out;
+}
+@media screen and (max-width: 400px) {
+    .container_ps{
+          flex-direction: column;
+    }
+    .meet{
+        transform: scale(0.6);
+        padding: 0%;
+        margin: 0%;
+        align-items: center;
+    }
+
+  }

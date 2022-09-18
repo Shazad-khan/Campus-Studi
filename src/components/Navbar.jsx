@@ -51,7 +51,7 @@ const Navbar = () => {
     }
     .abby{
       padding:10px 14px;
-      align-items: center;
+      align-items: center;/
       text-align: center;
       color:#fff;
       border-radius: 5px;
