@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.can{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imogi>img{
+   height: 600px;
+   width: 600px;
+   margin:auto;
+}
+.text_faq{
+    margin: 4rem;
+}
+.line_1{
+    color: RGB(8,217,213);
+    font-size: 2rem;
+    font-weight: bold;
+}
+.line_2{
+    color: RGB(22,29,39);
+    font-weight: bold;
+}
+@media screen and (max-width: 400px) {
+    .can {
+          flex-direction: column;
+    }
+    .imogi>img{
+        height: 450px;
+        width: 500px;
+     }
+  }

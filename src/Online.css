@@ -1,0 +1,47 @@
+.container_ps{
+    margin: 4rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+   
+}
+.meets{
+    margin: 3rem;
+    border:3px solid RGB(8,217,213);
+    border-radius: 3rem;
+
+}
+.zooms{
+    margin: 3rem;
+    border: 3px solid RGB(8,217,213);
+    border-radius: 3rem;
+    padding: 0;
+}
+.meet_p{
+    color: rgb(22,29,39);
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.meets:hover{
+    transform: scale(1.1);
+    transition: transform 430ms ease-in-out;
+
+}
+.zooms:hover{
+    transform: scale(1.1);
+    transition: transform 430ms ease-in-out;
+
+}
+.zoom_p{
+    color: rgb(22,29,39);
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 0;
+}
+@media screen and (max-width: 400px) {
+    .container_ps {
+          flex-direction: column;
+    }
+  }
