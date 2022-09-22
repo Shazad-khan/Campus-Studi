@@ -3,7 +3,8 @@ import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import { CgMenu, CgCloseR } from "react-icons/cg";
 import { useAuth0, User } from "@auth0/auth0-react";
-import { Button } from "bootstrap";
+// import { Button } from "bootstrap";
+// import Chats from "../pages/Chats";
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -178,7 +179,7 @@ const Navbar = () => {
               FAQ
             </NavLink>
           </li>
-          <li>
+          <li >
             <NavLink
               className="navbar-link"
               onClick={() => setOpenMenu(false)}
@@ -207,14 +208,14 @@ const Navbar = () => {
               className="navbar-link"
               onClick={() => setOpenMenu(false)}
               to="/Chats">
-              Chats
+                Chats
             </NavLink>
           </li>
-          <li>
+          <li >
             <NavLink
-              className="navbar-link"
-              onClick={() => setOpenMenu(false)}
-              to="/Kolhan">
+              className="navbar-link" 
+              onClick={() => setOpenMenu(true)} 
+              to="/Kolhan" >
              kolhan
             </NavLink>
           </li>

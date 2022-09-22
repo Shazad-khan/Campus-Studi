@@ -18,7 +18,7 @@ const Assigmant = () => {
             
             </div>
             <div className="tiles">
-            <NavLink to="/Assingments"> <img src={img2} alt="" className='scall' />
+            <NavLink to="/DSA"> <img src={img2} alt="" className='scall' />
                 <p className='text23'>DSA</p>
              </NavLink>
             

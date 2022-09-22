@@ -5,39 +5,39 @@ const Notes = () => {
   return (
     <div><div className="container_ps">
     <div className="tiles">
-    <a href="https://drive.google.com/drive/folders/1YWcX5kmtYAaa9SXW42zmorMhoePJmh9Z?usp=sharing">
+    <a href="https://drive.google.com/drive/folders/1TSlOXcpyqh2KS61LNWxey3tsUz5G5qbY?usp=sharing">
      <img src={img2} alt="" className='scall'/>
         <p className='text23'>Sem-1 Notes</p>
         </a> 
 
     </div>
     <div className="tiles">
-    <a href="https://docs.google.com/spreadsheets/d/1enODMq9_T923ccNjmpyPXkxLuOIzCWOdr9i13hPtjFU/edit?usp=sharing">
+    <a href="https://drive.google.com/drive/u/1/folders/1lA32MDJfqIAnA3FUXFEGS4Tvx9wcmdqD">
      <img src={img2} alt="" className='scall'/>
         <p className='text23'>Sem-2 Notes</p>
         </a> 
 
     </div>
     <div className="tiles">
-   <a href='https://drive.google.com/drive/folders/1ARdczAjUAQEI69JlVLU4yDhPqDzxntbE?usp=sharing'>
+   <a href='https://drive.google.com/drive/u/1/folders/1N2cidPuaALCP23TcZ1J7NueJTZJI4oeY'>
     <img src={img2} alt="" className='scall' />
         <p className='text23'>Sem-3 Notes</p>
         </a>
     </div>
     <div className="tiles">
-   <a href='https://drive.google.com/drive/folders/1ixvtUFcARGTcTFcDFEo6CEPOjJ7powrF?usp=sharing'>
+   <a href='https://drive.google.com/drive/u/1/folders/1FcmyjMihbcKY8ih9eI9M08npvPDv8Dca'>
     <img src={img2} alt="" className='scall' />
         <p className='text23'>Sem-4 Notes</p>
         </a>
     </div>
     <div className="tiles">
-   <a href='https://drive.google.com/drive/folders/1mx1OTW9d7Gz0jAU_ySegfSn3OYOOLyV7?usp=sharing'>
+   <a href='https://drive.google.com/drive/u/1/folders/1t7we0gB5tuztUqwCTJ2-Ecj3CLci1p9y'>
     <img src={img2} alt="" className='scall' />
         <p className='text23'>Sem-5 Notes</p>
         </a>
     </div>
     <div className="tiles">
-   <a href='https://drive.google.com/drive/folders/1mx1OTW9d7Gz0jAU_ySegfSn3OYOOLyV7?usp=sharing'>
+   <a href='https://drive.google.com/drive/u/1/folders/1OdIA3KOhsPdiaTob5FKRQUYPRcy0id-a'>
     <img src={img2} alt="" className='scall' />
         <p className='text23'>Sem-6 Notes</p>
         </a>

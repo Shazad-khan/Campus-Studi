@@ -1,16 +1,17 @@
 import React from 'react'
 import "../pages/Ass.css"
 import img1 from "../components/contract.png"
+import { NavLink } from 'react-router-dom'
 
 const AssingSem = () => {
   return (
     <div>
         <div className="container_ps">
             <div className="tiles">
-            <a href="https://drive.google.com/drive/folders/1YWcX5kmtYAaa9SXW42zmorMhoePJmh9Z?usp=sharing">
-             <img src={img1} alt="" className='scall'/>
-                <p className='text23'>Sem-1 All Assingments</p>
-                </a> 
+            <NavLink to="/Sem1allyear"> <img src={img1} alt="" className='scall' />
+                <p className='text23'>Sem-1 All <br /> 
+                Assigments</p>
+             </NavLink>
 
             </div>
             <div className="tiles">

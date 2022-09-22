@@ -20,6 +20,8 @@ import AssingSem from "./pages/AssingSem";
 import Notes from "./pages/Notes";
 import Semesters from "./pages/Semesters";
 import Questions from "./pages/Questions";
+import DSA from "./pages/DSA";
+import Sem1allyear from "./pages/Sem1allyear";
 
 const First = () => {
   const theme = {
@@ -70,6 +72,8 @@ const First = () => {
           <Route path="/Notes" element= {<Notes/>}/>
           <Route path="/Semesters" element= {<Semesters/>}/>
           <Route path="/Questions" element= {<Questions/>}/>
+          <Route path="/DSA" element= {<DSA/>}/>
+          <Route path="/Sem1allyear" element= {<Sem1allyear/>}/>
           
         </Routes>
 

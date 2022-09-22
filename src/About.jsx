@@ -1,11 +1,12 @@
  import React from 'react'
  import styled from 'styled-components'
- import { NavLink } from 'react-router-dom'
+ import { useAuth0, User } from "@auth0/auth0-react";
  import { Button } from './styles/Button'
  import about1 from "./components/home.png"
  import "./About.css"
  
  const About = () => {
+  const { loginWithRedirect } = useAuth0();
    return (
      <hello>
            <div className="container grid grid-two-column">
@@ -16,10 +17,8 @@
           we have different type of compliers & frameworls
            C++,c.C#,java,python,
           </p>
-          <Button className='btn hireme-btn'>
-           <NavLink to="/">
+          <Button className='btn hireme-btn'onClick={() => loginWithRedirect()}>
             Click
-           </NavLink>
            </Button>
           </div>
           

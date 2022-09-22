@@ -2,10 +2,10 @@ import React from 'react';
 import './messenger.css';
 import ChatShell from './chat/shell/Chat-Shell';
 
-function messenger() {
+function Messenger() {
   return (
     <ChatShell />
   );
 }
 
-export default messenger;
+export default Messenger;
