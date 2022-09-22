@@ -25,13 +25,13 @@ const Notes = () => {
         </a>
     </div>
     <div className="tiles">
-   <a href='https://drive.google.com/drive/u/1/folders/1FcmyjMihbcKY8ih9eI9M08npvPDv8Dca'>
+   <a href='https://drive.google.com/drive/u/1/folders/1nZgnsnAXLyitnMH5E6l2IMFXHWGX1HdV'>
     <img src={img2} alt="" className='scall' />
         <p className='text23'>Sem-4 Notes</p>
         </a>
     </div>
     <div className="tiles">
-   <a href='https://drive.google.com/drive/u/1/folders/1t7we0gB5tuztUqwCTJ2-Ecj3CLci1p9y'>
+   <a href='https://drive.google.com/drive/u/1/folders/1604u3FQ1c7X_x6WIg48JIZrNgnI-Fs0T'>
     <img src={img2} alt="" className='scall' />
         <p className='text23'>Sem-5 Notes</p>
         </a>

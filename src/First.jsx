@@ -22,6 +22,7 @@ import Semesters from "./pages/Semesters";
 import Questions from "./pages/Questions";
 import DSA from "./pages/DSA";
 import Sem1allyear from "./pages/Sem1allyear";
+import QuestionSemYear from "./pages/QuestionSemYear";
 
 const First = () => {
   const theme = {
@@ -74,6 +75,10 @@ const First = () => {
           <Route path="/Questions" element= {<Questions/>}/>
           <Route path="/DSA" element= {<DSA/>}/>
           <Route path="/Sem1allyear" element= {<Sem1allyear/>}/>
+          <Route path="/QuestionSemYear" element= {<QuestionSemYear/>}/>
+          
+          
+          
           
         </Routes>
 
