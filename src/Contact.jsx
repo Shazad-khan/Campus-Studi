@@ -1,7 +1,54 @@
-import React from "react";
+import React, {useState} from "react";
 import styled from "styled-components";
 
+
 const Contact = () => {
+  const[userData, setUserData]= useState({
+    userName: "",
+    email:"",
+    message:"",
+  });
+
+  let name,value;
+  const postUserData=(event)=>{
+    name = event.target.name;
+    value = event.target.value;
+
+    setUserData({...userData, [name]:value})
+  }
+  // connect with firebase
+    const submitData=async(event)=>{
+      event.preventDefault();
+      const {userName,email,message}=userData;
+      if(userName & email & message){
+      const res = fetch('https://campsstudio-8d8b1-default-rtdb.firebaseio.com/userDataRecords.json',
+      {
+      method:"POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        userName,
+        email,
+        message,
+      }),
+      }
+    );
+    if(res){
+      setUserData({
+        userName: "",
+        email:"",
+        message:"",
+      });
+      alert("Data Stored");
+    }else{
+      alert("please Fill the Data");
+    }
+  }else{
+    alert("please Fill the Data");
+  }
+  };
+    
   const Wrapper = styled.section`
     padding: 9rem 0 5rem 0;
 
@@ -68,20 +115,25 @@ const Contact = () => {
             className="contact-inputs">
             <input
               type="text"
-              name="username"
-              placeholder="username"
+              name="userName"
+              placeholder="userName"
               autoComplete="off"
               className="bt11"
               required
+              value={userData.userName}
+              onChange={postUserData}
+              
             />
 
             <input
               type="email"
-              name="Email"
-              placeholder="Email"
+              name="email"
+              placeholder="email"
               autoComplete="off"
               className="bt11"
               required
+              value={userData.email}
+              onChange={postUserData}
             />
 
             <textarea
@@ -89,9 +141,13 @@ const Contact = () => {
               cols="30"
               rows="6"
               autoComplete="off"
-              required></textarea>
+              placeholder="message"
+              required
+              value={userData.message}
+              onChange={postUserData}
+              ></textarea>
 
-            <input type="submit" value="send" />
+            <input type="submit" value="send" onClick={submitData}/>
           </form>
         </div>
       </div>
