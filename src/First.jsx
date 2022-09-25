@@ -23,6 +23,7 @@ import Questions from "./pages/Questions";
 import DSA from "./pages/DSA";
 import Sem1allyear from "./pages/Sem1allyear";
 import QuestionSemYear from "./pages/QuestionSemYear";
+import Comp from "./pages/Comp";
 
 const First = () => {
   const theme = {
@@ -76,6 +77,7 @@ const First = () => {
           <Route path="/DSA" element= {<DSA/>}/>
           <Route path="/Sem1allyear" element= {<Sem1allyear/>}/>
           <Route path="/QuestionSemYear" element= {<QuestionSemYear/>}/>
+          <Route path="/Comp" element= {<Comp/>}/>
           
           
           

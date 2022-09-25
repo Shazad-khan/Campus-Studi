@@ -16,7 +16,7 @@
     border: 2px solid rgb(8,217,213);
     border-radius: 2rem;
 }
-.meet:hover{
+.tiles:hover{
     transform: scale(0.7);
     transition: transform 430ms ease-in-out;
 }
