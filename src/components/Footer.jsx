@@ -67,8 +67,8 @@ const Footer = () => {
 
           {/* 4th column  */}
           <div className="footer-contact">
-            <h3>Call Us</h3>
-            <h3>text@gmail.com</h3>
+            <h3>Mail Us</h3>
+            <h3>campusstudio@gmail.com</h3>
           </div>
         </div>
 

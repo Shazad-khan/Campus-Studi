@@ -10,7 +10,7 @@ const Online = () => {
     <>
         <div className="container_ps">
             <div className="meets">
-            <a href="https://meet.google.com/" target="_blank">
+            <a href="https://meet.google.com/gas-bwcw-jzy" target="_blank">
              <img src={img2} alt="" />
                 <p className='meet_p'>google meet</p>
                 </a> 
@@ -24,7 +24,7 @@ const Online = () => {
 
             </div>
             <div className="zooms">
-           <a href='https://zoom.us/' target="_blank">
+           <a href='https://us05web.zoom.us/j/87880066370?pwd=aEVYVEFjcE41OWdyNUl6bk9mWlREQT09' target="_blank">
             <img src={img1} alt="" />
                 <p className='zoom_p'>zoom class</p>
                 </a>

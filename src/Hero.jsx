@@ -11,6 +11,7 @@ const Hero = () => {
     </div>
     
      <div className="right">
+      <a href="https://www.kuuniv.in/kureg/login">
              <div className="right-box">
                    <div className="box1">
                     Click Here to Apply Registration of <br />
@@ -68,10 +69,13 @@ const Hero = () => {
                      <br />PG Semester II Examination 2021
                      <br />PG Semester III Examination 2021
                      </div>
+                     
                </div>
-                
-               
+               </a>     
+
  </div>
+ 
+ 
  </div>
   )
 }

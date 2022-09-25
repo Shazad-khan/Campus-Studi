@@ -15,6 +15,7 @@ const Navbar = () => {
       display: flex;
       gap: 4.8rem;
       align-items: center;
+      
 
       li {
         list-style: none;
@@ -135,7 +136,7 @@ const Navbar = () => {
   `;
 
   return (
-    <Nav>
+    <Nav className="fixed">
       <div className={openMenu ? "menuIcon active" : "menuIcon"}>
         <ul className="navbar-list">
           <li>

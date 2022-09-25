@@ -5,7 +5,7 @@ const Chats= () => {
   return (
     <div><div className="container_ps">
     <div className="tiles">
-    <a href="http://localhost:3000/">
+    <a href="https://discord.gg/2hQWKUVb">
      <img src={img2} alt="" className='scall'/>
         <p className='text23'>Messenger</p>
         </a> 

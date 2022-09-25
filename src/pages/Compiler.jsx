@@ -5,7 +5,7 @@ const Compiler = () => {
   return (
     <div><div className="container_ps">
     <div className="tiles">
-    <a href="https://codesandbox.io/s /">
+    <a href="https://codesandbox.io/">
      <img src={img2} alt="" className='scall'/>
         <p className='text23'>compiler</p>
         </a> 

@@ -6,39 +6,39 @@ const Semesters = () => {
     <div>
         <div className="container_ps">
             <div className="tiles">
-            <a href="https://drive.google.com/drive/folders/1YWcX5kmtYAaa9SXW42zmorMhoePJmh9Z?usp=sharing">
+            <a href="https://drive.google.com/drive/folders/1cYV3tqGqATb17o2-ezTk-qOwn7iwKaHl">
              <img src={img4} alt="" className='scall'/>
                 <p className='text23'>Semester-1</p>
                 </a> 
 
             </div>
             <div className="tiles">
-            <a href="https://docs.google.com/spreadsheets/d/1enODMq9_T923ccNjmpyPXkxLuOIzCWOdr9i13hPtjFU/edit?usp=sharing">
+            <a href="https://drive.google.com/drive/folders/1t7Ox_ncrOLNOrPVLi9dBujuwOQ7h5q8N">
              <img src={img4} alt="" className='scall'/>
                 <p className='text23'>Semester-2</p>
                 </a> 
 
             </div>
             <div className="tiles">
-           <a href='https://drive.google.com/drive/folders/1ARdczAjUAQEI69JlVLU4yDhPqDzxntbE?usp=sharing'>
+           <a href='https://drive.google.com/drive/folders/1NVH03vl4NOhgmxirrYZMJZTnWPvV32hI'>
             <img src={img4} alt="" className='scall' />
                 <p className='text23'>Semester-3</p>
                 </a>
             </div>
             <div className="tiles">
-           <a href='https://drive.google.com/drive/folders/1ixvtUFcARGTcTFcDFEo6CEPOjJ7powrF?usp=sharing'>
+           <a href='https://drive.google.com/drive/folders/1yAiFTWxIDfrI2f5ELgjyHnG7vvbR336H'>
             <img src={img4} alt="" className='scall' />
                 <p className='text23'>Semester-4</p>
                 </a>
             </div>
             <div className="tiles">
-           <a href='https://drive.google.com/drive/folders/1mx1OTW9d7Gz0jAU_ySegfSn3OYOOLyV7?usp=sharing'>
+           <a href='https://drive.google.com/drive/folders/1yNiFOl-1hdKYTN3EU82QVucIwfKuFzay'>
             <img src={img4} alt="" className='scall' />
                 <p className='text23'>Semester-5</p>
                 </a>
             </div>
             <div className="tiles">
-           <a href='https://drive.google.com/file/d/1Rzs4byhMZdleclDNRo4d4M5hQqoNt3yq/view?usp=sharing'>
+           <a href='https://drive.google.com/drive/folders/1MNTIx0IFRL8lJRzZZ1vo3qgmvHp43f5e'>
             <img src={img4} alt="" className='scall' />
                 <p className='text23'>Semester-6</p>
                 </a>
